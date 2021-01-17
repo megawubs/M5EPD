@@ -240,7 +240,7 @@
 // Comment out the #define below to stop the SPIFFS filing system and smooth font code being loaded
 // this will save ~20kbytes of FLASH
 // #define SMOOTH_FONT     1
-#define FREETYPE_FONT   1
+// #define FREETYPE_FONT   1
 
 #if (FREETYPE_FONT && SMOOTH_FONT)
 #error Can only choose one between freetype font and smooth font
